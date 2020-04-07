@@ -29,5 +29,5 @@ jobs:
           curl -X POST https://maker.ifttt.com/trigger/turn_off_light/with/key/dCyKOr1khnjkNv5ZLKXAqz
           sleep 1.5
           curl -X POST https://maker.ifttt.com/trigger/turn_on_mirror_ball/with/key/dCyKOr1khnjkNv5ZLKXAqz
-          sleep 2
+          sleep 1.8
           curl -i -X PUT -H "Content-Type:application/json" -H "Authorization:Bearer BQALzBodKZq04TmouXT305-6Bwj2DutxY4PlfSY7zDzqdkQjMg9oXeNJWCO0lN4E7YnCLbjuwz--du8t_f7RB6hDSe3XbVR-aMi4u2uanNdBbrSvlYSB6NYWPbq8w57mDk28RD8PS8zDsZqqocaYxT6pZUkwzjrHbvzdyDBvO96oz7w" -d '{"uris": ["spotify:track:6dlCQNTl06VUQptct6liKr"]}' 'https://api.spotify.com/v1/me/player/play?device_id=aec84f7f2814b0bb1dac33ac33e30e570fd91984'
